@@ -261,6 +261,36 @@
 	    background-position: 0% 0%, 300% 300%;
 	}
 }
+.ascend {
+	color: #FFA07A;
+	background: #FF0000;
+	border: 2px solid #FFA07A;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.ascend:hover {
+	background: #FFA07A;
+	color: #FF0000;
+}
+.transcend {
+	color: #FFD700;
+	background: #FF7F50;
+	border: 2px solid #FF4500;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.transcend:hover {
+	background: #FFD700;
+	color: #FF7F50;
+}
 .unknown {
 	background: #fcfcfc;
 	color: #fcfcfc;
