@@ -391,3 +391,19 @@
 	text-shadow: 0px 0px 3px #0033cc, 0px 0px 6px #0033cc;
 	cursor: pointer
 }
+
+.continuum {
+	background: linear-gradient(#FFA500, #FF4500);
+	border: 2px solid transparent;
+	font-family: Typewriter;
+	font-weight: bold;
+  color: white;
+  border-radius: 4px;
+	transition-duration: 0.2s;
+	animation: 4s linear infinite
+}
+.continuum:hover {
+	border-color: rgba(255,255,255,0.5);
+	box-shadow: inset 0px 0px 12px 0px #ffffff;
+	cursor: pointer
+}
