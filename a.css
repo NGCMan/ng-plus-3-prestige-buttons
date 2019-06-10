@@ -407,3 +407,18 @@
 	box-shadow: inset 0px 0px 12px 0px #ffffff;
 	cursor: pointer
 }
+.zombify {
+	color: green;
+	background: black;
+	border: 2px solid gray;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.zombify:hover {
+	color: green;
+	background: gray;
+}
+
