@@ -513,6 +513,7 @@
 	font-family: Typewriter;
 	font-weight: bold;
 	border-radius: 4px;
+	animation: digitize 3s linear infinite;
 	transition-duration: 0.2s
 }
 .oof:hover {
