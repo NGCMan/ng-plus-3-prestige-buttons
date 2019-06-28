@@ -275,37 +275,7 @@
 	border-color: #000000;
 	cursor: pointer;
 }
-.ascend {
-	color: #FFA07A;
-	background: #FF0000;
-	border: 2px solid #FFA07A;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-
-.ascend:hover {
-	background: #FFA07A;
-	color: #FF0000;
-}
-.transcend {
-	color: #FFD700;
-	background: #FF7F50;
-	border: 2px solid #FF4500;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s;
-	cursor: pointer;
-}
-
-.transcend:hover {
-	background: #FFD700;
-	color: #FF7F50;
-}
-.simulation {
+.virtualize {
 	color: #000000;
 	text-shadow: 0px 0px 3px #ffffff;
 	background: linear-gradient(#000000, transparent 50%, #000000 100%), radial-gradient(circle, #ffffff, #3f9fff 50%, #000000 100%);
@@ -315,7 +285,7 @@
 	border-radius: 4px;
 	transition-duration: 0.2s
 }
-.simulation:hover {
+.virtualize:hover {
 	color: #ffffff;
 	text-shadow: 0px 0px 3px #000000;
 	cursor: pointer
@@ -359,21 +329,6 @@
 	text-shadow: 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900, 0px 0px 6px #e59900;
 	cursor: pointer
 }
-.eternitize {
-	color: #ffffff;
-	text-shadow: 0px 0px 3px #ffffff;
-	background: radial-gradient(circle, #ffffff, #000000 75%, #b341e0 100%);
-	border: 2px solid #000000;
-	font-family: Typewriter;
-	font-weight: bold;
-	border-radius: 4px;
-	transition-duration: 0.2s
-}
-.eternitize:hover {
-	color: #000000;
-	text-shadow: 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0;
-	cursor: pointer
-}
 .timeless {
 	border: 2px solid #000000;
 	box-shadow: inset 0px 0px 12px 0px #ffffff;
@@ -391,23 +346,133 @@
 	text-shadow: 0px 0px 3px #0033cc, 0px 0px 6px #0033cc;
 	cursor: pointer
 }
-
 .continuum {
-	background: linear-gradient(#FFA500, #FF4500);
+	border: 2px solid #3f00ff;
+	box-shadow: inset 0px 0px 12px 0px #7f00ff;
+	color: #3f00ff;
+	text-shadow: 0px 0px 6px #3f00ff, 0px 0px 3px #1f007f;
+	background: linear-gradient(#00007f, #0000ff 50%, #00007f 100%);
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.continuum:hover {
+	box-shadow: inset 0px 0px 12px 0px #7f00ff;
+	text-shadow: 0px 0px 6px #3f00ff, 0px 0px 3px #9f7fff;
+	cursor: pointer
+}
+.omniscient {
+	color: #bfbf00;
+	text-shadow: 0px 0px 6px #bfbf00, 0px 0px 3px #bfbf00;
+	background: radial-gradient(circle, transparent, #000000 50%, #000000 100%), linear-gradient(#3f3f00, transparent 50%, #3f3f00 100%), linear-gradient(#3f3f00, #ffff00 50%, #3f3f00 100%);
+	font-weight: bold;
+    border: 2px solid #000000;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.omniscient:hover {
+	text-shadow: 0px 0px 6px #ffff00, 0px 0px 3px #ffffff;
+	cursor: pointer
+}
+.spiritual {
+	color: #ff3f00;
+	text-shadow: 0px 0px 6px #ff3f00, 0px 0px 3px #7f1f00;
+	background: radial-gradient(transparent, #ff7f00), linear-gradient(#ff3f00, transparent 50%, #ff3f00 100%), linear-gradient(90deg, #ff0000, #ff7f00 50%, #ff0000 100%);
+	border: 2px solid #ff3f00;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	animation: spiritual 3s linear infinite;
+	background-size: 100% 300%;
+	transition-duration: 0.2s
+}
+.spiritual:hover {
+	color: #ff7f00;
+	text-shadow: 0px 0px 6px #ffbf7f, 0px 0px 3px #ffbf7f;
+	cursor: pointer
+}
+@keyframes spiritual { 
+	0%{
+	    background-position: 0 0;
+	}
+	100%{
+	    background-position: 300% 300%;
+	}
+}
+.enlighten {
+	border: 2px solid #bfbfbf;
+	box-shadow: inset 0px 0px 12px 0px #bfbfbf;
+	color: #ff7f7f;
+	text-shadow: 0px 0px 6px #ff7f7f, 0px 0px 3px #ff7f7f;
+	background: #ffffff;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.enlighten:hover {
+	color: #ff0000;
+	text-shadow: 0px 0px 6px #ff0000, 0px 0px 3px #ff00000;
+	cursor: pointer
+}.ascend {
+	color: #FFA07A;
+	background: #FF0000;
+	border: 2px solid #FFA07A;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.ascend:hover {
+	background: #FFA07A;
+	color: #FF0000;
+}
+.transcend {
+	color: #FFD700;
+	background: #FF7F50;
+	border: 2px solid #FF4500;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+}
+
+.transcend:hover {
+	background: #FFD700;
+	color: #FF7F50;
+}.simulation {
+	color: #000000;
+	text-shadow: 0px 0px 3px #ffffff;
+	background: linear-gradient(#000000, transparent 50%, #000000 100%), radial-gradient(circle, #ffffff, #3f9fff 50%, #000000 100%);
 	border: 2px solid transparent;
 	font-family: Typewriter;
 	font-weight: bold;
-  color: white;
-  border-radius: 4px;
-	transition-duration: 0.2s;
-	animation: 4s linear infinite
+	border-radius: 4px;
+	transition-duration: 0.2s
 }
-.continuum:hover {
-	border-color: rgba(255,255,255,0.5);
-	box-shadow: inset 0px 0px 12px 0px #ffffff;
+.simulation:hover {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #000000;
 	cursor: pointer
+}.eternitize {
+	color: #ffffff;
+	text-shadow: 0px 0px 3px #ffffff;
+	background: radial-gradient(circle, #ffffff, #000000 75%, #b341e0 100%);
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
 }
-.zombify {
+.eternitize:hover {
+	color: #000000;
+	text-shadow: 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0, 0px 0px 6px #b341e0;
+	cursor: pointer
+}.zombify {
 	color: green;
 	background: black;
 	border: 2px solid gray;
@@ -421,4 +486,37 @@
 	color: green;
 	background: gray;
 }
+.police {
+	color: #000000;
+	text-shadow: 0px 0px 3px #ffffff, 0px 0px 3px #ffffff;
+	animation: fract 3s linear infinite;
+	border: 2px solid #1f1f1f;
+	background: radial-gradient(transparent, #000000), repeating-linear-gradient(90deg,#000764,#206BCB 16%,#b90000 42%,#b90000 64.25%,#000200 85.75%,#000764);
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s;
+	cursor: pointer;
+	background-size: 200% 100%;
+}
 
+.police:hover {
+	color: #ffffff;
+	border: 2px solid #bfbfbf;
+	text-shadow: 0px 0px 3px #000000, 0px 0px 3px #000000;
+}
+.oof {
+	color: #e0d502;
+	text-shadow: 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000, 0px 0px 6px #000000;
+	background: url("images/oof.png");
+	border: 2px solid #000000;
+	font-family: Typewriter;
+	font-weight: bold;
+	border-radius: 4px;
+	transition-duration: 0.2s
+}
+.oof:hover {
+	color: #000000;
+	text-shadow: 0px 0px 6px #e0d502, 0px 0px 6px #e0d502, 0px 0px 6px #e0d502, 0px 0px 6px #e0d502, 0px 0px 6px #e0d502, 0px 0px 6px #e0d502;
+	cursor: pointer
+}
